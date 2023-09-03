@@ -1,6 +1,6 @@
-function saludoBoton(){
+function saludoBoton(event){
     alert("Hola!");
-    
+    event.stopPropagation();
 }
 
 function saludoDiv(){
